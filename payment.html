@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="./image/png-transparent-web-development-responsive-web-design-e-commerce-business-ecommerce-blue-angle-web-design.ico"
+        type="image/x-icon">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="pcontainer">
+        <h3 style="text-align: center;">Payment Methods</h3>
+        <div id="paymentMethods">
+            <div class="payselect">
+                <input type="radio" id="gpay" onclick="gpay()"> <label for="gpay">Google</label> <br> <br>
+                <input type="radio" id="ppay" onclick="ppay()"> <label for="ppay">Phone Pay</label> <br> <br>
+                <input type="radio" id="paytm" onclick="paytm()"> <label for="paytm">Paytm</label> <br> <br>
+                <input type="radio" id="emi" onclick="Emi()"> <label for="emi">EMI</label> <br> <br>
+                <input type="radio" id="cash" onclick="cash()"> <label for="cash">COD</label> <br> <br>
+            </div>
+        </div>
+        <table style="width: 100%; height: 30vh;" border="1" id="tab">
+            <tr id="tr">
+                <th>PayMethod: </th>
+                <th id="payer"></th>
+            </tr>
+            <tr id="tr">
+                <th>Account Number: </th>
+                <th id="accNo"></th>
+            </tr>
+            <tr id="tr">
+                <th>IFSC code : </th>
+                <th id="Code"></th>
+            </tr>
+            <tr id="tr">
+                <th>Bank Name: </th>
+                <th id="Branch"></th>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+    <script src="payment.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

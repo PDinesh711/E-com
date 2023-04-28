@@ -1,0 +1,633 @@
+*{
+    margin: 0;padding: 0;
+}
+/* Main page */
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+@media (max-width:1200px) {
+    .container{
+        width: 100%;
+        height: 100%;
+        background-color: royalblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+}
+#btn > a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+    background-color: blue;
+}
+@media (max-width: 500px) {
+    .box{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 250px;
+        background-color: lawngreen;
+    }
+}
+.box1{
+    background-image: url(https://media.istockphoto.com/id/626856996/photo/man-clothing.jpg?s=612x612&w=0&k=20&c=J1Yu7m0Wk7dOilQWG8X_hIW5FzJqaJhzd8EIl6AM0zA=);
+}
+.box2{
+    background-image: url(https://cdn.pixabay.com/photo/2016/04/08/18/46/shopping-mall-1316787__340.jpg);
+    background-position: 100%;
+}
+.box3{
+    background-image: url(https://cdn.pixabay.com/photo/2020/11/20/17/30/baby-5762292__340.jpg);
+    background-position: 100%;
+}
+.box4{
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/11/09/26/office-1730939__340.jpg);
+    background-position: 100%;
+}
+.box5{
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/23/11/03/books-2253569__340.jpg);
+    background-position: 100%;
+}
+.box6{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/18/17/20/living-room-1835923__340.jpg);
+    background-position: 100%;
+}
+#btn{
+    width: 50%;
+    height: 6vh;
+    margin-top: 80px;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border-color: transparent;
+}
+#btn:hover{
+    background-color: rgb(35, 35, 185);
+    color: rgb(223, 213, 213);
+}
+/* Men's collection */
+.mcontainer{
+    width: 100%;
+    height: 100%;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.mbox{
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+}
+.mleft1{
+    width: 50%;
+    height: 100%;
+    background: url(https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/19182426/2022/11/29/cc7c29cf-1fd6-4ba9-adbc-a5998e943b821669721808243-US-Polo-Assn-Denim-Co-Men-Tshirts-4011669721807757-1.jpg) no-repeat;
+   background-size: cover;
+}
+.mleft2{
+    width: 50%;
+    height: 100%;
+    background: url(https://i.pinimg.com/originals/5c/4f/6e/5c4f6e0e335a59340a023553a95c9d1b.jpg) no-repeat;
+   background-size: cover;
+}
+.mleft3{
+    width: 50%;
+    height: 100%;
+    background: url(https://cms.cloudinary.vpsvc.com/image/upload/c_scale,dpr_auto,f_auto,q_auto:good,w_900/India%20LOB/Clothing%20and%20Bags/Basic%20Polyester%20T-shirts/IN_Basic_Polyester_T-shirts_Overview_01) no-repeat;
+   background-size: cover;
+}
+.mleft4{
+    width: 50%;
+    height: 100%;
+    background: url(https://cdn.pixabay.com/photo/2018/02/08/11/54/male-3139289__340.jpg) no-repeat;
+   background-size: cover;
+}
+
+.mright{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+#cartbtn{
+    width: 70%;
+    height: 6vh;
+    background-color: palegreen;
+    border-color: none;
+    color: black;
+    font-size: medium;
+}
+#cartbtn:hover{
+    background-color: rgb(119, 215, 119);
+    color: rgb(42, 40, 40);
+}
+#cartbtn> a{
+    text-decoration: none;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Female Collection's */
+.fcontainer{
+    width: 100%;
+    height: 100%;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.fbox{
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+   
+}
+.fleft1{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/832/832/xif0q/dress/c/s/t/-original-imagjnsw7cageuq8.jpeg?q=70) no-repeat;
+   background-size: cover;
+}
+.fleft2{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/832/832/xif0q/dress/v/m/f/xl-printed-midi-dress-with-laces-perhaps-original-imaggw5xgqwryfq8.jpeg?q=70) no-repeat;
+   background-size: cover;
+}
+.fleft3{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/832/832/xif0q/kurta/t/z/p/3xl-multicolors31-akk-enterprise-original-imagmhx9k6bz2ag4.jpeg?q=70) no-repeat;
+   background-size: cover;
+}
+.fleft4{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/832/832/ky1vl3k0/t-shirt/f/u/6/m-2co-w-regular-must-blk-young-trendz-original-imagadhfgte57e67.jpeg?q=70) no-repeat;
+   background-size: cover;
+}
+
+.fright{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+#cartbtn{
+    width: 70%;
+    height: 6vh;
+    background-color: palegreen;
+    border-color: none;
+    color: black;
+    font-size: medium;
+}
+#cartbtn:hover{
+    background-color: rgb(119, 215, 119);
+    color: rgb(42, 40, 40);
+}
+#cartbtn> a{
+    text-decoration: none;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Kids collection */
+.kcontainer{
+    width: 100%;
+    height: 100%;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.kbox{
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+   
+}
+.kleft1{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/832/832/kzrbiq80/kids-t-shirt/s/u/i/9-10-years-hft-22h3p-sg2-on2-pe-hellcat-original-imagbp5zgwkvw4n3.jpeg?q=70) no-repeat;
+   background-size: cover;
+}
+.kleft2{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/832/832/xif0q/kids-t-shirt/j/6/h/1-2-years-kuctshrt161-disney-by-miss-chief-original-imag5f29zunsmgys-bb.jpeg?q=70) no-repeat;
+   background-size: cover;
+}
+.kleft3{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/832/832/xif0q/kids-t-shirt/q/n/s/-original-imagdh5de33x7fr9-bb.jpeg?q=70) no-repeat;
+   background-size: cover;
+}
+.kleft4{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/832/832/xif0q/kids-t-shirt/k/e/h/8-9-years-bwt-blrnfulboy-bz55-blive-original-imaghbh9evgfgqga.jpeg?q=70) no-repeat;
+   background-size: cover;
+}
+
+.kright{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+#cartbtn{
+    width: 70%;
+    height: 6vh;
+    background-color: palegreen;
+    border-color: none;
+    color: black;
+    font-size: medium;
+}
+#cartbtn:hover{
+    background-color: rgb(119, 215, 119);
+    color: rgb(42, 40, 40);
+}
+#cartbtn> a{
+    text-decoration: none;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Cart */
+.cartContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: royalblue;
+}
+table{
+
+    text-align: center;
+    color: white;
+}
+/* mobiles and laptop */
+.lcontainer{
+    width: 100%;
+    height: 100%;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.lbox{
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+   
+}
+.lleft1{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/h/h/f/-original-imagnfqybfcdzeye.jpeg?q=70) no-repeat;
+   background-size: contain;
+}
+.lleft2{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/s/2/z/note-12-mzb0e6fin-redmi-original-imagz62gzggajgz4.jpeg?q=70) no-repeat;
+   background-size: contain;
+}
+.lleft3{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/312/312/ks99aq80/computer/y/z/7/na-gaming-laptop-lenovo-original-imag5ve3jvhgvsnx.jpeg?q=70) no-repeat;
+   background-size: cover;
+}
+.lleft4{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/312/312/kzogn0w0/computer/j/u/m/14a-ca0504tu-thin-and-light-laptop-hp-original-imagbmt6dsjhwwhz.jpeg?q=70) no-repeat;
+   background-size: cover;
+}
+
+.lright{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+#cartbtn{
+    width: 50%;
+    height: 6vh;
+    background-color: palegreen;
+    border-color: none;
+    color: black;
+    font-size: medium;
+}
+#cartbtn:hover{
+    background-color: rgb(119, 215, 119);
+    color: rgb(42, 40, 40);
+}
+#cartbtn> a{
+    text-decoration: none;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Cart */
+.cartContainer{
+    width: 100%;
+    height: 100%;
+    background-color: royalblue;
+}
+table{
+    text-align: center;
+    color: white;
+}
+/* book's collection */
+.bcontainer{
+    width: 100%;
+    height: 100%;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.bbox{
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+   
+}
+.bleft1{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/416/416/xif0q/regionalbooks/p/q/x/indian-polity-english-1st-print-edition-upsc-civil-services-exam-original-imaggz5hhjagy2fg.jpeg?q=70) no-repeat;
+   background-size: 100%;
+}
+.bleft2{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/416/416/l4ssfww0/regionalbooks/b/6/x/indian-economy-english-1st-edition-for-upsc-cse-prelims-mains-by-original-imagfm5peczatstg.jpeg?q=70) no-repeat;
+   background-size: cover;
+}
+.bleft3{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/416/416/l4pxk7k0/regionalbooks/i/o/l/the-answer-writing-manual-for-upsc-civil-services-exam-state-psc-original-imagfjxzjpwzbcdh.jpeg?q=70) no-repeat;
+   background-size: cover;
+}
+.bleft4{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/416/416/l3khsi80/regionalbooks/3/k/a/principles-of-indian-geography-english-1st-edition-for-upsc-cse-original-imagenkszyhpcmvt.jpeg?q=70) no-repeat;
+   background-size: cover;
+}
+
+.bright{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+#cartbtn{
+    width: 70%;
+    height: 6vh;
+    background-color: palegreen;
+    border-color: none;
+    color: black;
+    font-size: medium;
+}
+#cartbtn:hover{
+    background-color: rgb(119, 215, 119);
+    color: rgb(42, 40, 40);
+}
+#cartbtn> a{
+    text-decoration: none;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* electronics  */
+.econtainer{
+    width: 100%;
+    height: 100%;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.ebox{
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.eleft1{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/312/312/xif0q/television/h/0/x/-original-imaghgphu8kjtgvs.jpeg?q=70) no-repeat;
+   background-size: auto;
+}
+.eleft2{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/612/612/xif0q/washing-machine-new/k/h/s/-original-imagzhnhchytgngf.jpeg?q=70) no-repeat;
+   background-size: contain;
+}
+.eleft3{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/312/312/xif0q/refrigerator-new/6/h/q/hed-204dg-p-1313-4-2023-44-haier-628-541-original-imagmpmc9wm95f28.jpeg?q=70) no-repeat;
+   background-size: contain;
+}
+.eleft4{
+    width: 50%;
+    height: 100%;
+    background: url(https://rukminim1.flixcart.com/image/312/312/xif0q/air-conditioner-new/0/5/x/-original-imagnc4gtsyaufbk.jpeg?q=70) no-repeat;
+   background-size: contain;
+}
+
+.eright{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+#cartbtn{
+    width: 70%;
+    height: 6vh;
+    background-color: palegreen;
+    border-color: none;
+    color: black;
+    font-size: medium;
+}
+#cartbtn:hover{
+    background-color: rgb(119, 215, 119);
+    color: rgb(42, 40, 40);
+}
+#cartbtn> a{
+    text-decoration: none;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#buyres{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+.result{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+h2{
+    animation: colors infinite 20s;
+}
+@keyframes colors {
+    0%{
+        color: red;
+    }
+    10%{
+        color: blue;
+    }
+    20%{
+        color: darkred;
+    }
+    30%{
+        color: forestgreen;
+    }
+    40%{
+        color: orangered;
+    }
+    50%{
+        color:  navy;
+    }
+    60%{
+        color: lightcoral;
+    }
+    70%{
+        color: white;
+    }
+    80%{
+        color: dodgerblue;
+    }
+    90%{
+        color: darkgoldenrod;
+    }
+    1000%{
+        color: indigo;
+    }
+
+}
+span > input{
+    width: 30%;
+    height: 130%;
+    border-color: none;
+    outline: none;
+    color: green;
+    font-weight: 900;
+    font-family: monospace;
+}
+.dis{
+    position: relative;
+    width: 120px;
+    left: -10%;
+    top: -20%;
+}
+#refbtn{
+    width: 10%;
+    height: 30px;
+    background: hotpink;
+    color: white;
+    border-color: transparent;
+}
+#refbtn:hover{
+    background: rgb(199, 46, 122); 
+    color: rgb(203, 173, 173);
+}
+.buybtn{
+    width: 270%;
+    height: 6vh;
+    background-color: palegreen;
+    border-color: none;
+    color: black;
+    font-size: medium;
+}
+.pcontainer{
+    width: 100%;
+    height: 100vh;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: space-evenly; */
+    gap: 40px;
+}
+#paymentMethods{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+#paymentMethods > input{
+   color: royalblue;
+}
+.payselect{
+    width: 50%;
+    height: 100%; 
+}
+#tr{
+    width: 100px;
+height: 100%;
+}

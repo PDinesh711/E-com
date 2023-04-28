@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="./image/png-transparent-web-development-responsive-web-design-e-commerce-business-ecommerce-blue-angle-web-design.ico"
+        type="image/x-icon">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cartContainer" style="display: flex; flex-direction: column; align-items: center;">
+        <button id="cartbtn"><a href="./index.html">Back</a></button>
+        <!-- <button id="refbtn" onclick="refresh()">Refresh</button>  --> <br>
+        <h3 style="text-align: center;">Men's Cart</h3>
+        <table border="1" style=" width: 70%; height: 15px;">
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quatity</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>black T-shirt with hat</td>
+                <td>1000 /-</td>
+                <td id="m1vol"></td>
+                <td id="mtotal" rowspan="4"></td>
+            </tr>
+            <tr>
+                <td>Black T-Shirt</td>
+                <td>1200 /-</td>
+                <td id="m2vo"></td>
+            </tr>
+            <tr>
+                <td>Printed T-shirt</td>
+                <td>600 /-</td>
+                <td id="m3vo"></td>
+            </tr>
+            <tr>
+                <td>Combo T-Shirt</td>
+                <td>1900 /-</td>
+                <td id="m4vo"></td>
+            </tr>
+        </table>
+        <!--  -->
+        <h3 style="text-align: center;">Women's Cart</h3>
+        <table border="1" style=" width: 70%; height: 15px;">
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quatity</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Blue Dress</td>
+                <td>1000 /-</td>
+                <td id="f1vol"></td>
+                <td id="ftotal" rowspan="4"></td>
+            </tr>
+            <tr>
+                <td>Multicolor Dress</td>
+                <td>1200 /-</td>
+                <td id="f2vo"></td>
+            </tr>
+            <tr>
+                <td>Printed Kurta</td>
+                <td>600 /-</td>
+                <td id="f3vo"></td>
+            </tr>
+            <tr>
+                <td>Combo T-Shirt</td>
+                <td>1900 /-</td>
+                <td id="f4vo"></td>
+            </tr>
+        </table>
+        <!--  -->
+        <h3 style="text-align: center;">kid's Cart</h3>
+        <table border="1" style=" width: 70%; height: 15px;">
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quatity</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Cotton Blend T Shirt</td>
+                <td>1000 /-</td>
+                <td id="k1vol"></td>
+                <td id="ktotal" rowspan="4"></td>
+            </tr>
+            <tr>
+                <td>Girls Graphic T-shirt</td>
+                <td>1200 /-</td>
+                <td id="k2vo"></td>
+            </tr>
+            <tr>
+                <td>Boys Printed T-Shirt</td>
+                <td>600 /-</td>
+                <td id="k3vo"></td>
+            </tr>
+            <tr>
+                <td>Combo T-Shirt</td>
+                <td>1900 /-</td>
+                <td id="k4vo"></td>
+            </tr>
+        </table>
+        <!--  -->
+        <h3 style="text-align: center;">Mobile's and Laptop's Cart</h3>
+        <table border="1" style=" width: 70%; height: 15px;">
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quatity</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>OPPO A17</td>
+                <td>15000 /-</td>
+                <td id="l1vol"></td>
+                <td id="ltotal" rowspan="4"></td>
+            </tr>
+            <tr>
+                <td>Mi A2</td>
+                <td>16000 /-</td>
+                <td id="l2vo"></td>
+            </tr>
+            <tr>
+                <td>Mi Book 12</td>
+                <td>60000 /-</td>
+                <td id="l3vo"></td>
+            </tr>
+            <tr>
+                <td>HP Book Pro 15</td>
+                <td>90000 /-</td>
+                <td id="l4vo"></td>
+            </tr>
+        </table>
+        <!--  -->
+        <h3 style="text-align: center;">Book's Cart</h3>
+        <table border="1" style=" width: 70%; height: 15px;">
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quatity</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Indian Polity </td>
+                <td>1000 /-</td>
+                <td id="b1vol"></td>
+                <td id="btotal" rowspan="4"></td>
+            </tr>
+            <tr>
+                <td>Indian Economy</td>
+                <td>1200 /-</td>
+                <td id="b2vo"></td>
+            </tr>
+            <tr>
+                <td>Writing Manual</td>
+                <td>600 /-</td>
+                <td id="b3vo"></td>
+            </tr>
+            <tr>
+                <td>Geography</td>
+                <td>1900 /-</td>
+                <td id="b4vo"></td>
+            </tr>
+        </table>
+        <!--  -->
+        <h3 style="text-align: center;">Electronics Cart</h3>
+        <table border="1" style=" width: 70%; height: 15px;">
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quatity</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Realme Smart Tv</td>
+                <td>24000 /-</td>
+                <td id="e1vol"></td>
+                <td id="etotal" rowspan="4"></td>
+            </tr>
+            <tr>
+                <td>LG Washing Machine</td>
+                <td>17000 /-</td>
+                <td id="e2vo"></td>
+            </tr>
+            <tr>
+                <td>Haier Refrigerator</td>
+                <td>15000 /-</td>
+                <td id="e3vo"></td>
+            </tr>
+            <tr>
+                <td>Whirlpool AC 4-in-1</td>
+                <td>25000 /-</td>
+                <td id="e4vo"></td>
+            </tr>
+        </table> <br>
+        <button id="cartbtn" onclick="buy()"><a onclick="buy()">Calculate the Price</a></button>
+        <div class="result">
+            <span>Total Amount to Pay : </span> <span id="buyres"></span>
+        </div>
+        <a href="./payment.html"><button class="buybtn">Buy</button></a>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -35,3 +35,20 @@ function cash(){
 }
 
 document.getElementById('tab').style.display='none';
+
+
+
+document.getElementById('tick').style.display='none';
+
+// document.getElementById('btn').innerHTML="Order"
+
+
+// 
+
+function actionBtn(){
+    document.getElementById('tick').style.display='block';
+
+    document.getElementById('text').innerHTML="Completed Order"
+
+    document.getElementById('status').innerHTML="Order Status" ; 
+}

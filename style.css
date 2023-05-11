@@ -631,3 +631,22 @@ span > input{
     width: 100px;
 height: 100%;
 }
+
+/*      */
+#Orderbtn{
+    width: 150px;
+    height: 60px;
+    color: white;
+    background-color: blue;
+    letter-spacing: 2px;display: flex;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    /* animation: order 10s ease; */
+    /* transform: scaleX(2); */
+}
+#tick{
+    transition: 3s;
+    font-size: larger;
+    color: rgb(42, 222, 29);
+}
